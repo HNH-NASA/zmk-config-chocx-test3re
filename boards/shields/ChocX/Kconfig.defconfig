@@ -1,0 +1,29 @@
+if SHIELD_CHOCX_R
+
+config ZMK_KEYBOARD_NAME
+    default "ChocX"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+config ZMK_POINTING
+    default y
+
+config AZ1UBALL
+    default y
+
+config I2C
+    default y
+
+
+endif # SHIELD_CHOCX_R
+
+if SHIELD_CHOCX_R || SHIELD_CHOCX_L
+
+config ZMK_SPLIT
+    default y
+
+config SPI
+    default y
+
+endif # SHIELD_CHOCX_R || SHIELD_CHOCX_L

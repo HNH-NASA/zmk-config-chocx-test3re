@@ -1,0 +1,5 @@
+config SHIELD_CHOCX_L
+    def_bool $(shields_list_contains,ChocX_L)
+
+config SHIELD_CHOCX_R
+    def_bool $(shields_list_contains,ChocX_R)
