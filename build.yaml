@@ -18,8 +18,15 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+board: [ "seeeduino_xiao_ble" ]
+shield: [ "ChocX_L", "ChocX_R" ]
 include:
   - board: seeeduino_xiao_ble
-    shield: helix_left
+    shield: ChocX_L
+    snippet: zmk-usb-logging
+    artifact-name: ChocX_L
   - board: seeeduino_xiao_ble
-    shield: helix_right
+    shield: ChocX_R
+    artifact-name: ChocX_R
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
