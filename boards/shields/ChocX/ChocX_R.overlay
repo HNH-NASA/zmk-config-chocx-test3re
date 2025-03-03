@@ -8,15 +8,6 @@
     col-offset = <6>;
 };
 
-&kscan0 {
-        col-gpios
-             = <&shifter 7 GPIO_ACTIVE_HIGH>
-             , <&shifter 6 GPIO_ACTIVE_HIGH>
-             , <&shifter 5 GPIO_ACTIVE_HIGH>
-             , <&shifter 4 GPIO_ACTIVE_HIGH>
-             , <&shifter 3 GPIO_ACTIVE_HIGH>
-             ;
-};
 
 &xiao_i2c {
     status = "okay";
