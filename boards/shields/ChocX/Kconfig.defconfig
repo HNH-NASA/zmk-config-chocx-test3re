@@ -23,7 +23,4 @@ if SHIELD_CHOCX_R || SHIELD_CHOCX_L
 config ZMK_SPLIT
     default y
 
-config SPI
-    default y
-
 endif # SHIELD_CHOCX_R || SHIELD_CHOCX_L
