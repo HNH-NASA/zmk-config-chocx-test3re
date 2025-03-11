@@ -5,7 +5,7 @@
 #include "ChocX.dtsi"
 
 &default_transform {
-    col-offset = <6>;
+    col-offset = <5>;
 };
 
 &kscan0 {
