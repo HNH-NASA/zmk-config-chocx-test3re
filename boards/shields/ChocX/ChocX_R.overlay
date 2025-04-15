@@ -49,7 +49,8 @@
     trackball: trackball@a {
         compatible = "palette,az1uball";
         reg = <0x0A>;
-	status = "okay";
+	default-mode = "mouse";
+	sensitivity = "4x";
     };
 };
 
