@@ -21,8 +21,7 @@
 &pinctrl {
         i2c0_default: i2c0_default {
                 group1 {
-                        psels = <NRF_PSEL(SPIM_SDA, 4, 0)>,
-                                <NRF_PSEL(SPIM_SCL, 5, 0)>;
+                        psels = <NRF_PSEL(SPIM_SDA, 4, 0)>, <NRF_PSEL(SPIM_SCL, 5, 0)>;
                 };
         };
 
